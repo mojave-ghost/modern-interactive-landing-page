@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tropical Blend - Premium Smoothie Bar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="custom-cursor"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">🥤 Tropical Blend</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <button class="cta-btn">Order Now</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="floating-fruit fruit-1">🥭</div>
+        <div class="floating-fruit fruit-2">🍓</div>
+        <div class="floating-fruit fruit-3">🥝</div>
+        <div class="floating-fruit fruit-4">🍌</div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">FUEL YOUR DAY</h1>
+            <p class="hero-subtitle">Premium smoothies crafted with nature's finest ingredients</p>
+            <div class="hero-buttons">
+                <button class="btn-primary">Build Your Blend</button>
+                <button class="btn-secondary">View Menu</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Smoothie Builder -->
+    <section class="builder-section" id="menu">
+        <div class="container">
+            <h2 class="section-title">Build Your Perfect Blend</h2>
+            
+            <div class="builder-grid">
+                <div class="ingredient-card" data-price="6" data-color="#ff6b6b">
+                    <span class="ingredient-icon">🥭</span>
+                    <h3 class="ingredient-name">Mango Base</h3>
+                    <p class="ingredient-price">$6.99</p>
+                </div>
+                
+                <div class="ingredient-card" data-price="7" data-color="#4ecdc4">
+                    <span class="ingredient-icon">🥬</span>
+                    <h3 class="ingredient-name">Green Power</h3>
+                    <p class="ingredient-price">$7.99</p>
+                </div>
+                
+                <div class="ingredient-card" data-price="8" data-color="#9b59b6">
+                    <span class="ingredient-icon">🫐</span>
+                    <h3 class="ingredient-name">Berry Blast</h3>
+                    <p class="ingredient-price">$8.99</p>
+                </div>
+            </div>
+            
+            <div class="smoothie-preview">
+                <div class="smoothie-glass" id="smoothieGlass"></div>
+                <div class="total-price" id="totalPrice">Select a base to start</div>
+                <button class="btn-primary pulse-btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Loved by Thousands</h2>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Best açaí bowl in the city! Fresh ingredients and amazing flavors."</p>
+                    <p class="testimonial-author">- Sarah K.</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Energy boost that actually works. My daily addiction!"</p>
+                    <p class="testimonial-author">- Mike R.</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Perfect post-workout fuel. Love the customization options."</p>
+                    <p class="testimonial-author">- Jenny L.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2 class="cta-title">Ready for Your Perfect Blend?</h2>
+            <button class="btn-primary pulse-btn" style="font-size: 1.3rem; padding: 1.5rem 3rem;">Order Now</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
