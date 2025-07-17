@@ -67,6 +67,7 @@ nav {
     -webkit-background-clip: text;
     color: transparent;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .logo:hover {
