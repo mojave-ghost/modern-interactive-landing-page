@@ -16,16 +16,12 @@ body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
+    cursor: none;
 }
 
 /* Remove default cursors from all interactive elements */
 button, a, .ingredient-card, .logo, input, textarea, select {
     cursor: none !important;
-}
-
-/* Custom Cursor */
-body {
-    cursor: none;
 }
 
 .custom-cursor {
