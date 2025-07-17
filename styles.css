@@ -18,6 +18,11 @@ body {
     overflow-x: hidden;
 }
 
+/* Remove default cursors from all interactive elements */
+button, a, .ingredient-card, .logo, input, textarea, select {
+    cursor: none !important;
+}
+
 /* Custom Cursor */
 body {
     cursor: none;
@@ -67,7 +72,6 @@ nav {
     -webkit-background-clip: text;
     color: transparent;
     transition: transform 0.3s ease;
-    cursor: pointer;
 }
 
 .logo:hover {
@@ -110,7 +114,6 @@ nav {
     border: none;
     border-radius: 25px;
     font-weight: 600;
-    cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
 }
@@ -194,7 +197,6 @@ nav {
     border-radius: 50px;
     font-size: 1.1rem;
     font-weight: 600;
-    cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 10px 30px rgba(255, 107, 107, 0.4);
 }
@@ -212,7 +214,6 @@ nav {
     border-radius: 50px;
     font-size: 1.1rem;
     font-weight: 600;
-    cursor: pointer;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
 }
@@ -257,7 +258,6 @@ nav {
     border-radius: 20px;
     text-align: center;
     transition: all 0.3s ease;
-    cursor: pointer;
     border: 3px solid transparent;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
