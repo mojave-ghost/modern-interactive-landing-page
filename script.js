@@ -89,9 +89,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
-            target.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
+            // Calculate offset for fixed nav + observer margin
+            const navHeight = document.querySelector('nav').offsetHeight;
+            const observerOffset = 50; // from rootMargin
+            const totalOffset = navHeight + observerOffset;
+            
+            const targetPosition = target.offsetTop - totalOffset;
+            
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
             });
         }
     });
