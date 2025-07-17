@@ -1,3 +1,12 @@
+// Logo click to scroll to top
+const logo = document.getElementById('logo');
+logo.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
 // Custom Cursor
 const cursor = document.querySelector('.custom-cursor');
 let mouseX = 0, mouseY = 0;
