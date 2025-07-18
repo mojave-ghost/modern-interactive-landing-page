@@ -31,7 +31,7 @@ A modern, interactive landing page showcasing cutting-edge web design trends for
 
 ## 🚀 Live Demo
 
-[View Live Demo](your-github-pages-url-here) | [View Repository](your-repo-url-here)
+[View Live Demo](https://modern-interactive-landing-page.netlify.app/) | [View Repository](https://github.com/mojave-ghost/modern-interactive-landing-page)
 
 ## 📁 Project Structure
 
