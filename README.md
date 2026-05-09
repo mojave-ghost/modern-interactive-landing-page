@@ -2,10 +2,6 @@
 
 A modern, interactive landing page showcasing cutting-edge web design trends for 2025. Built with pure HTML, CSS, and JavaScript to demonstrate advanced design concepts and conversion-focused UX.
 
-![Smoothie Shop Preview](https://img.shields.io/badge/Status-Complete-brightgreen)
-![Web Technologies](https://img.shields.io/badge/Tech-HTML%20%7C%20CSS%20%7C%20JavaScript-blue)
-![Design Trends](https://img.shields.io/badge/Design-2025%20Trends-purple)
-
 ## 🌟 Features
 
 ### 🎨 **Cutting-Edge Design Trends**
@@ -28,10 +24,6 @@ A modern, interactive landing page showcasing cutting-edge web design trends for
 - **Conversion Optimization** - Strategic CTA placement
 - **Accessibility Features** - High contrast and keyboard navigation
 - **Performance Optimized** - Fast loading with pure vanilla JS
-
-## 🚀 Live Demo
-
-[View Live Demo](https://modern-interactive-landing-page.netlify.app/) | [View Repository](https://github.com/mojave-ghost/modern-interactive-landing-page)
 
 ## 📁 Project Structure
 
@@ -163,16 +155,6 @@ Adjust animation timing in `styles.css`:
 - [ ] **Animation Library** - GSAP for advanced animations
 - [ ] **CMS Integration** - Dynamic content management
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Your Name**
-- Portfolio: [your-portfolio-url]
-- LinkedIn: [your-linkedin-url]
-- Twitter: [@your-twitter-handle]
 
 ## 🙏 Acknowledgments
 
